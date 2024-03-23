@@ -31,3 +31,20 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# OS
+.DS_Store
+**/.DS_Store
+
+# Java build directories
+target/
+out/
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
