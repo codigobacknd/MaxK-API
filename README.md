@@ -17,11 +17,11 @@ The MaxK Calculation API offers a solution for calculating the maximum value of 
 ### Installation and Execution
 **Clone the repository:**
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/codigobacknd/MaxK-API.git
    ```
 
    ```bash
-   cd tu-repositorio
+   cd MaxK-API
    ```
 
 ## Build the project with Maven:
@@ -43,7 +43,7 @@ mvn spring-boot:run
 
 **Example cURL:**
 ```bash
-curl "http://localhost:8080/api/max-k?x=10&y=5&n=187"
+curl "http://localhost:8080/api/max-k?x=7&y=5&n=12345"
 ``` 
 
 **2. Calculate MaxK (POST):**
@@ -62,9 +62,9 @@ with a JSON request body containing x, y, and n
 
 **Example cURL:**
 ```bash
-curl -X POST "http://localhost:8080/api/max-k/calculate" \              ok 
+curl -X POST "http://localhost:8080/api/max-k/calculate" \
      -H "Content-Type: application/json" \
-     -d '{"x":5,"y":0,"n":4}'
+     -d '{"x":7,"y":5,"n":12345}'
 ```
 
 # Tests
@@ -74,5 +74,3 @@ This project includes unit and integration tests to validate the business logic 
 ```bash
 mvn test
 ```
-
-
