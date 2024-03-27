@@ -130,3 +130,9 @@ If you have end-to-end (E2E) tests set up, you can run them with:
 ```bash
 ng e2e
 ```
+
+# DEMO
+
+```bash
+https://maxkapp.azurewebsites.net/
+```
